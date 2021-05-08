@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 48d1b14d7e6f2c34ba8cb461259c9533
+timeCreated: 1580990885
+licenseType: Store
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: operating_lamp_1_1
+    100004: operating_lamp_1_2
+    100006: operating_lamp_1_3
+    100008: operating_lamp_1_4
+    100010: operating_lamp_1_5
+    100012: operating_lamp_1_5_1
+    100014: operating_lamp_2_1
+    100016: operating_lamp_2_2
+    100018: operating_lamp_2_3
+    100020: operating_lamp_2_4
+    100022: operating_lamp_2_5
+    100024: operating_lamp_2_5_1
+    100026: operating_lamp_3_1
+    100028: operating_lamp_3_2
+    100030: operating_lamp_3_3
+    100032: operating_lamp_3_4
+    100034: operating_lamp_3_5
+    400000: //RootNode
+    400002: operating_lamp_1_1
+    400004: operating_lamp_1_2
+    400006: operating_lamp_1_3
+    400008: operating_lamp_1_4
+    400010: operating_lamp_1_5
+    400012: operating_lamp_1_5_1
+    400014: operating_lamp_2_1
+    400016: operating_lamp_2_2
+    400018: operating_lamp_2_3
+    400020: operating_lamp_2_4
+    400022: operating_lamp_2_5
+    400024: operating_lamp_2_5_1
+    400026: operating_lamp_3_1
+    400028: operating_lamp_3_2
+    400030: operating_lamp_3_3
+    400032: operating_lamp_3_4
+    400034: operating_lamp_3_5
+    2300000: //RootNode
+    2300002: operating_lamp_1_1
+    2300004: operating_lamp_1_2
+    2300006: operating_lamp_1_3
+    2300008: operating_lamp_1_4
+    2300010: operating_lamp_1_5
+    2300012: operating_lamp_1_5_1
+    2300014: operating_lamp_2_1
+    2300016: operating_lamp_2_2
+    2300018: operating_lamp_2_3
+    2300020: operating_lamp_2_4
+    2300022: operating_lamp_2_5
+    2300024: operating_lamp_2_5_1
+    2300026: operating_lamp_3_1
+    2300028: operating_lamp_3_2
+    2300030: operating_lamp_3_3
+    2300032: operating_lamp_3_4
+    2300034: operating_lamp_3_5
+    3300000: //RootNode
+    3300002: operating_lamp_1_1
+    3300004: operating_lamp_1_2
+    3300006: operating_lamp_1_3
+    3300008: operating_lamp_1_4
+    3300010: operating_lamp_1_5
+    3300012: operating_lamp_1_5_1
+    3300014: operating_lamp_2_1
+    3300016: operating_lamp_2_2
+    3300018: operating_lamp_2_3
+    3300020: operating_lamp_2_4
+    3300022: operating_lamp_2_5
+    3300024: operating_lamp_2_5_1
+    3300026: operating_lamp_3_1
+    3300028: operating_lamp_3_2
+    3300030: operating_lamp_3_3
+    3300032: operating_lamp_3_4
+    3300034: operating_lamp_3_5
+    4300000: operating_lamp
+    4300002: operating_lamp_3_1
+    4300004: operating_lamp_3_2
+    4300006: operating_lamp_3_3
+    4300008: operating_lamp_3_4
+    4300010: operating_lamp_3_5
+    4300012: operating_lamp_2_1
+    4300014: operating_lamp_2_2
+    4300016: operating_lamp_2_3
+    4300018: operating_lamp_2_4
+    4300020: operating_lamp_2_5
+    4300022: operating_lamp_2_5_1
+    4300024: operating_lamp_1_1
+    4300026: operating_lamp_1_2
+    4300028: operating_lamp_1_3
+    4300030: operating_lamp_1_4
+    4300032: operating_lamp_1_5
+    4300034: operating_lamp_1_5_1
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
