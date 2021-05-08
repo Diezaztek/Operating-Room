@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 5809369663852975487}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.46764, y: 0.46764, z: 0.46764}
   m_Children: []
   m_Father: {fileID: 5809369665028502815}
   m_RootOrder: 0
@@ -106,7 +106,7 @@ Transform:
   m_GameObject: {fileID: 5809369665028502804}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.37, y: 0.83, z: 7.55}
-  m_LocalScale: {x: 0.4235, y: 0.4235, z: 0.4235}
+  m_LocalScale: {x: 0.3388, y: 0.3388, z: 0.3388}
   m_Children:
   - {fileID: 5809369663852975486}
   m_Father: {fileID: 0}
@@ -295,15 +295,15 @@ MonoBehaviour:
   _state: 0
   material: {fileID: 2100000, guid: 63be858496719475eb44a31369725346, type: 2}
   color_hilight: {r: 0.8, g: 0.8, b: 1, a: 0.125}
-  lerp_idle: 0
-  lerp_focus: 0
-  lerp_hide: 0
-  lerp_clicked: 0
-  scale_clicked_max: 0
+  lerp_idle: 1
+  lerp_focus: 1
+  lerp_hide: 1
+  lerp_clicked: 1
+  scale_clicked_max: 3
   scale_animation: 3
-  scale_idle_min: 0
-  scale_idle_max: 0
-  scale_focus_min: 0
-  scale_focus_max: 0
+  scale_idle_min: 1
+  scale_idle_max: 1.25
+  scale_focus_min: 1.25
+  scale_focus_max: 1
   clip_click: {fileID: 8300000, guid: caa6e21323536431ca522812c2ce90f3, type: 3}
   threshold: 0.125
