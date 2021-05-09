@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{DE10B2C7-DF34-416B-7F0F-4FA0B314FAE8}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Rotate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Instructions.cs">
     <Files>
-      <File FileName="Assets/Scripts/Rotate.cs" Line="7" Column="23" />
-      <File FileName="Assets/Scripts/Waypoint.cs" Line="140" Column="107" />
+      <File FileName="Assets/Scripts/Instructions.cs" Line="22" Column="39" />
+      <File FileName="Assets/Scripts/Rotate.cs" Line="7" Column="24" />
+      <File FileName="Assets/Scripts/Waypoint.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +11,7 @@
           <Node name="OperatingRoom" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Rotate.cs" selected="True" />
+                <Node name="Instructions.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -20,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="29981c50-b221-45fb-ac94-fcdb78635694" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="98c8d89d-cb9d-4a19-b391-a368e6f8411c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
