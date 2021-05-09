@@ -1902,6 +1902,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   video: {fileID: 237579640}
   canvas: {fileID: 2062539942}
+  objectsToDeactivate:
+  - {fileID: 1169724343}
+  - {fileID: 371340956}
+  - {fileID: 844952441}
+  - {fileID: 367697325}
+  - {fileID: 1053308874}
+  - {fileID: 1307922431}
+  audio: {fileID: 1856666373}
 --- !u!114 &367697329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1999,6 +2007,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   video: {fileID: 1124311122}
   canvas: {fileID: 557809503}
+  objectsToDeactivate:
+  - {fileID: 1169724343}
+  - {fileID: 844952441}
+  - {fileID: 371340956}
+  - {fileID: 367697325}
+  - {fileID: 1053308874}
+  - {fileID: 1307922431}
+  audio: {fileID: 1856666373}
 --- !u!114 &371340960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3385,6 +3401,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   video: {fileID: 741622490}
   canvas: {fileID: 774983382}
+  objectsToDeactivate:
+  - {fileID: 1169724343}
+  - {fileID: 371340956}
+  - {fileID: 844952441}
+  - {fileID: 367697325}
+  - {fileID: 1053308874}
+  - {fileID: 1307922431}
+  audio: {fileID: 1856666373}
 --- !u!114 &844952445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4166,6 +4190,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   video: {fileID: 1106570570}
   canvas: {fileID: 2131195033}
+  objectsToDeactivate:
+  - {fileID: 1169724343}
+  - {fileID: 371340956}
+  - {fileID: 844952441}
+  - {fileID: 367697325}
+  - {fileID: 1053308874}
+  - {fileID: 1307922431}
+  audio: {fileID: 1856666373}
 --- !u!114 &1053308878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4688,6 +4720,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   video: {fileID: 671833694}
   canvas: {fileID: 1833621015}
+  objectsToDeactivate:
+  - {fileID: 1169724343}
+  - {fileID: 371340956}
+  - {fileID: 844952441}
+  - {fileID: 367697325}
+  - {fileID: 1053308874}
+  - {fileID: 1307922431}
+  audio: {fileID: 1856666373}
 --- !u!114 &1169724349
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5483,6 +5523,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   video: {fileID: 468279514}
   canvas: {fileID: 1468501712}
+  objectsToDeactivate:
+  - {fileID: 1169724343}
+  - {fileID: 371340956}
+  - {fileID: 844952441}
+  - {fileID: 367697325}
+  - {fileID: 1053308874}
+  - {fileID: 1307922431}
+  audio: {fileID: 1856666373}
 --- !u!114 &1307922435
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7587,7 +7635,7 @@ GameObject:
   - component: {fileID: 1856666374}
   - component: {fileID: 1856666373}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: operatingAudio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7604,10 +7652,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 785aca10ec0034b268ff4976b5f2635b, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 0.8
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -8161,6 +8209,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   video: {fileID: 671833694}
   canvas: {fileID: 1833621015}
+  objectsToDeactivate: []
+  audio: {fileID: 0}
 --- !u!65 &2020957362
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8247,6 +8297,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   video: {fileID: 671833694}
   canvas: {fileID: 1833621015}
+  objectsToDeactivate: []
+  audio: {fileID: 0}
 --- !u!1001 &2035650521
 PrefabInstance:
   m_ObjectHideFlags: 0
