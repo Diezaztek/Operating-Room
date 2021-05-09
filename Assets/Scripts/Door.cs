@@ -11,7 +11,6 @@ public class Door : MonoBehaviour
 	AudioSource audioSource;
 	public AudioClip soundFile;
 
-	private bool locked = true;
 	private bool opening = false;
 
 	private Quaternion leftDoorStartRotation;
