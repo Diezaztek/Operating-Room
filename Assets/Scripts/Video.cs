@@ -8,6 +8,8 @@ public class Video : MonoBehaviour
 {
     public VideoPlayer video;
     public GameObject canvas;
+    public GameObject[] objectsToDeactivate;
+    public AudioSource audio;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,17 +25,28 @@ public class Video : MonoBehaviour
     public void playVideo() 
     {
         canvas.SetActive(true);
-        StartCoroutine(LateCall());
         video.Play();
+        foreach (GameObject element in objectsToDeactivate)
+        {
+            element.transform.position = element.transform.position + new Vector3(0,100,0);
+
+        }
+        audio.Pause();
         StartCoroutine(LateCall());
     }
 
     IEnumerator LateCall()
      {
-         float videoLenght = (float)video.GetComponent<UnityEngine.Video.VideoPlayer>().length;
+         float videoLength = (float)video.GetComponent<UnityEngine.Video.VideoPlayer>().length;
  
-         yield return new WaitForSeconds(videoLenght);
- 
-         canvas.SetActive(false);
+         yield return new WaitForSeconds(videoLength);
+
+        canvas.SetActive(false);
+        foreach (GameObject element in objectsToDeactivate)
+        {
+            element.transform.position = element.transform.position + new Vector3(0,-100,0);
+        }
+        audio.Play();
+         
      }
 }
