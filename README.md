@@ -36,6 +36,15 @@
         <li><a href="#user-testing-final-user-test">User testing 3: Integration</a></li>
     </ul>
     <li>
+      <a href="#breakdown">Breakdown of the final piece</a>
+      <ul>
+        <li><a href="#scene-setting">Scene setting</a></li>
+        <li><a href="#mobile-movement">Mobile movement mechanic</a></li>
+        <li><a href="#feedback">User feedback</a></li>
+      </ul>
+    </li>
+    <li><a href="#development-conclusion">Development conclusion</a></li>
+    <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
@@ -43,6 +52,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#next-steps">Next steps</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
@@ -68,16 +78,16 @@ Provide an interactive application where medicine students from all years can in
 
 For a focus development, it is imperative to define the end-user of the application. In this case, our users are medicine students that cannot go to the operating room due to any restrictions but they want to go deep in their practical skills. They are going to be around their twenties
 
-<table>
-    <tr>
-        <td>
+<table style="border:0">
+    <tr style="border:0">
+        <td style="border:0">
             <img src="images/cynthia.png" alt="Logo" width="300px">
         </td>
-        <td>
+        <td style="border:0">
             <h1> Cynthia, 20 </h1>
             <h3 style="color:grey"> Sophomore medicine student </h3>
             <h3><i>"Medicine is a lifestyle"</i></h3>
-            <p>Summer is a sophomore medicine student. She is full with activites and do not have a lot of personal time. She uses many medicine software for studying and is willing to try new techologies for gaining more knowledge </p>
+            <p>Cynthia is a sophomore medicine student. She is full with activites and do not have a lot of personal time. She uses many medicine software for studying and is willing to try new techologies for gaining more knowledge </p>
         </td>
     </tr>
 </table>
@@ -123,9 +133,36 @@ For an accurate development an early user testing was needed. The dynamic was ab
 
 ### User testing 1: The interface
 
+The first user test was about the interface, where the proportions of the player and the furnishings were tested. Also about the size of the videos that appear on the screen. This test was made to senior medicine students that has previous experience in the operating room
+1.	How does the proportions feel? The size is correct?
+2.	The furnishing distribution is correct for an operating room?
+3.	The videos are easy to see? 
+The results obtained were that the size of the player felt right. Also the distribution and proportions of the operating room were correct. Some fixes that came out from this questionary were about that some ítems felt to close to each other and that some kind of shelves does not exist in every operating room. The action taken was to remove those shelves and to increase the size of the room. Another fix that were made was to decrease the size of the explanitory videos as some bug that came out was the it was difficutl to follow up the whole video
+
 ### User testing 2: Motion and mechanics
 
+The second user test was about the game mechanics, in this questionary the playability was tested and if the instructions were clear. This test was made to sophomore medicine students, the characteristics that were evaluated are:
+1.	The navigation is easy and intuitive?
+2.	The instructions were clear?
+3.	Do you think the movement were right? To quick? To slow?
+4.	It was difficult to orientate yourself during the experience?
+The results obtained were that the navigation and instructions were very clear but in some points the waypoints are difficult to locate so the color was changed. Another bug that came out were that in some points the user feel like “crashing” with some of the furnishings so the waypoints were re-arrenged
+
 ### User testing 3: Integration
+
+Fort the last test, it was asked to the players to navigate the whole operating room interacting with every station. The comments were quite positive only with the correction of the audio that wasn’t making the right modo
+
+## Breakdown of the final piece
+
+### Scene setting
+
+The environment were created with the modo of being in a real operating room. The ilumination is also low to contrast with the videos that were presented
+
+### Mobile movement mechanic
+
+### User feedback
+
+## Development conclusion
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -150,6 +187,9 @@ cd Operating-Room
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+
+
+## Next steps
 
 
 <!-- LICENSE -->
