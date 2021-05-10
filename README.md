@@ -32,15 +32,15 @@
     <li><a href="#user-testing">User testing</a></li>
     <ul>
         <li><a href="#user-testing-1-the-interface">User testing 1: The interface</a></li>
-        <li><a href="#user-testing-2-mechanics">User testing 2: Motion and mechanics</a></li>
-        <li><a href="#user-testing-final-user-test">User testing 3: Integration</a></li>
+        <li><a href="#user-testing-2-motion-and-mechanics">User testing 2: Motion and mechanics</a></li>
+        <li><a href="#user-testing-3-integration">User testing 3: Integration</a></li>
     </ul>
     <li>
-      <a href="#breakdown">Breakdown of the final piece</a>
+      <a href="#breakdown-of-the-final-piece">Breakdown of the final piece</a>
       <ul>
         <li><a href="#scene-setting">Scene setting</a></li>
-        <li><a href="#mobile-movement">Mobile movement mechanic</a></li>
-        <li><a href="#feedback">User feedback</a></li>
+        <li><a href="#mobile-movement-mechanic">Mobile movement mechanic</a></li>
+        <li><a href="#sounds-and-user-feedback">User feedback</a></li>
       </ul>
     </li>
     <li><a href="#development-conclusion">Development conclusion</a></li>
@@ -153,14 +153,13 @@ The results obtained were that the navigation and instructions were very clear b
 Fort the last test, it was asked to the players to navigate the whole operating room interacting with every station. The comments were quite positive only with the correction of the audio that wasn’t making the right modo
 
 ## Breakdown of the final piece
-
-### Scene setting
+### Scene setting
 
 The environment were created with the modo of being in a real operating room. The ilumination is also low to contrast with the videos that were presented
 
 ### Mobile movement mechanic
 
-### User feedback
+### Sounds and user feedback
 
 ## Development conclusion
 
