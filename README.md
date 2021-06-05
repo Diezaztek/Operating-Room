@@ -139,6 +139,8 @@ The first user test was about the interface, where the proportions of the player
 3.	The videos are easy to see? 
 The results obtained were that the size of the player felt right. Also the distribution and proportions of the operating room were correct. Some fixes that came out from this questionary were about that some ítems felt to close to each other and that some kind of shelves does not exist in every operating room. The action taken was to remove those shelves and to increase the size of the room. Another fix that were made was to decrease the size of the explanitory videos as some bug that came out was the it was difficutl to follow up the whole video
 
+![dimension test][dimension]
+
 ### User testing 2: Motion and mechanics
 
 The second user test was about the game mechanics, in this questionary the playability was tested and if the instructions were clear. This test was made to sophomore medicine students, the characteristics that were evaluated are:
@@ -148,20 +150,36 @@ The second user test was about the game mechanics, in this questionary the playa
 4.	It was difficult to orientate yourself during the experience?
 The results obtained were that the navigation and instructions were very clear but in some points the waypoints are difficult to locate so the color was changed. Another bug that came out were that in some points the user feel like “crashing” with some of the furnishings so the waypoints were re-arrenged
 
+![game mechanics test][mechanics]
+
 ### User testing 3: Integration
 
-Fort the last test, it was asked to the players to navigate the whole operating room interacting with every station. The comments were quite positive only with the correction of the audio that wasn’t making the right modo
+Fort the last test, it was asked to the players to navigate the whole operating room interacting with every station. The comments were quite positive only with the correction of the audio that wasn’t making the right mood
 
 ## Breakdown of the final piece
 ### Scene setting
 
-The environment were created with the modo of being in a real operating room. The ilumination is also low to contrast with the videos that were presented
+The environment were created with the modo of being in a real operating room. The ilumination is also focused on the places where the LEDs lamps should be providing a more realistic scene
+
+![lights settings][lights]
 
 ### Mobile movement mechanic
 
+The movement was made thanks to 7 waypoints distributed all over the operating room. These were scattered all over the room so the user can explorate every important part in the operating room
+
+![waypoints distribution][waypoints-distribution]
+
 ### Sounds and user feedback
 
+Every waypoint emmits its own sound when they are reached, besides that a mp3 file was colocated in the middle of the room simulating the sound of the machines working. 
+
+Also a plane with instructions are provided to the user before they can start the experience
+
+![game instructions][instructions]
+
 ## Development conclusion
+
+This project was a challange from the very beginning: the development of an useful VR experience for a real life environment. Nevertheless the result was quite satisfactory and the user test results were very positive. I really consider that this project can be develop in collaboration with some health schools to provide the alumnee a great tool for gain more knowledge and practical experience without putting themselves or others in danger. 
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -184,12 +202,9 @@ cd Operating-Room
 ```
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
-
-
 ## Next steps
 
+In this project, the interaction was quite limited, but I consider that the project can grow to become a full operating simulator were medical students can practice several skills before going into a real operating room.
 
 <!-- LICENSE -->
 ## License
@@ -209,3 +224,8 @@ Project Link: [https://github.com/Diezaztek/Operating-Room](https://github.com/D
 [co-spaces-initial-distribution]: images/co-spaces-initial-distribution.png
 [co-spaces-booth-1]: images/co-spaces-booth-1.png
 [co-spaces-booth-2]: images/co-spaces-booth-2.png
+[dimension]: images/dimension.png
+[mechanics]: images/mechanics.png
+[lights]: images/lights.png
+[waypoints-distribution]: images/waypoints-distribution.png
+[instructions]: images/instructions.png
